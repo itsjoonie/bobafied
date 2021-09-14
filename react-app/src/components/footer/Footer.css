@@ -1,0 +1,29 @@
+.footerContainer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    z-index: 99;
+}
+
+.Github i {
+   color: #fff;
+}
+.linkedIn i {
+    color: #fff;
+}
+
+.footerLink:visited { 
+    text-decoration: none;
+ }
+
+ .linkedIn {
+     margin-left: 20px;
+ }

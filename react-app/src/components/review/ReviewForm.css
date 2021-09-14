@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@600&display=swap');
+
+.reviewFormPage{
+    background-color: #e3f0ffc2;
+    height: 420px;
+    border-radius: 2%;
+    
+}
+
+.bobaSelections{
+    display: flex;
+    justify-content: center;
+}
+
+#bobaflavor {
+    margin-right: 10px;
+}
+.from {
+    margin-left: 10px;
+}
+
+.fromSelect{
+    margin-left: 5px;
+}
+
+.reviewHeading h1, .reviewHeading h2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.reviewHeading2{
+    margin-top: -10px;
+}
+
+.insertText,
+.reviewRating, 
+.insertPic {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+
+.insertPic label {
+    margin-right: 10px;
+}
+
+
+.reviewTextarea {
+    resize: none;
+    border: 3px solid #cccccc;
+}
+
+.reviewRating label{
+    margin-right: 10px;
+}
+
+.reviewBtns{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+.postReview-btn, 
+.cancelReview-btn{
+    text-decoration: none;
+    border: none;
+    width: 60px;
+    height: 30px;
+    border-radius: 20%;
+    margin-top: 20px;
+    box-shadow: 5px 5px 2px 1px rgba(125, 125, 138, 0.37); 
+    cursor: pointer;
+}
+
+
+.postReview-btn:hover{
+    background-color: #7db7c0;
+    font-weight: bolder;
+}
+
+.cancelReview-btn:hover{
+    background-color:  #516f83 ;
+    font-weight: bolder;
+}
+
+.postReview-btn{
+    margin-right: 20px;
+    background-color: #98dfeac0;
+}
+
+.cancelReview-btn{
+    margin-left: 20px;
+    background-color: #6689a1b2;
+}
+
+#errorHandling{
+   text-align: center;
+   color: red;
+   margin-top: -40px;
+}
+
+#errorHandling p {
+    margin-top: -10px;
+}
+
+
+.picBox{
+    width: 300px;
+}

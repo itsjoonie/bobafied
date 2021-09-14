@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=BenchNine:wght@300&family=Bitter:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+
+#root .homepage{
+    height: 100vh;
+}
+.userIcon-home{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 7px solid rgba(0, 0, 0, 0.13);
+}
+.homepage{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100%;
+    background-color: #F8F0DF;
+
+}
+.homepage-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #FEFBF3;
+    padding-top: 40px;
+
+}
+
+
+.home-left{
+    margin-right: 70px;
+    margin-left: 40px;
+
+}
+
+#hello-name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#hello h1{
+    text-align: center;
+    padding-left: 30px;
+    font-family: 'Playfair Display', serif;
+    /* font-size: 40px; */
+}
+#hello-icon{
+    display: flex;
+    justify-content: center;
+}
+
+
+.home-right{
+    margin-left: 60px;
+    margin-right: 20px;
+}
+
+.home-right-top{
+    background-color: whitesmoke;
+    margin-bottom: 40px;
+}
+
+#lineCss{
+    border-top: 2px dashed #C2DBC1;
+}
+
+.tried-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 2px solid;
+    height: 300px;
+    width: 620px;
+    box-shadow: 10px 10px 5px rgba(187, 187, 187, 0.561);
+}
+
+.tried-boba-card{
+    height: 40px;
+    width: 110px;
+ 
+    /* display: flex;
+    flex-direction: row;
+    justify-content: center; */
+
+
+}
+.stampcircles{
+    margin-top: 10px;
+    margin-bottom: -20px;
+}
+
+#stampHeading{
+    background-color: #ebc9aec9;
+    width: 220px;
+    text-align: center;
+    padding-top: 50px;
+
+}
+
+#stampHeading h2{
+    font-family: 'Orbitron', sans-serif;
+    margin-bottom: -16px;
+}
+
+.boba-icon{
+    
+    height: 65px;
+    width: 65px;
+    border-radius: 50px;
+    border: 3px solid rgb(255, 255, 255);
+    
+}
+
+.bobaBorder{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#stampSide{
+    background-color: #c1c3ab91;
+    width: 430px;
+    height: 100%;
+    border-left: 2px solid white ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    
+}
+
+.fontBitter{
+    font-family: 'Bitter', serif;
+}
+
+.home-right-top h3 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px
+}

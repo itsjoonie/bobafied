@@ -1,0 +1,27 @@
+.userDashboard{
+    /* display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 1000px; */
+
+}
+
+.userprofile{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.userRightSide{
+    margin-left: 700px;
+    margin-right: -30px;
+    background-color: aqua;
+
+    width: 300px
+}
+
+.userInfoContainer{
+    height: 300px;
+    width: 400px;
+    background-color: azure;
+}

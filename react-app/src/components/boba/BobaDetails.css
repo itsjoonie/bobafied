@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@500&display=swap');
+
+.detailPage{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 1300px;
+  width: 100%;
+  background-color: #ffe4db;
+
+
+}
+.cardbox{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #4CAF50;
+  padding: 5px;
+
+  border: 2px solid;
+  height: 600px;
+  width: 1020px;
+  margin-top: 100px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
+  position: relative;
+  
+}
+#bobaImage{
+  height: 300px;
+  width: 300px;
+  border: 1px solid;
+  border-radius: 50%;
+ 
+}
+
+.detailContent{
+
+  margin-left: 30px;
+  margin-top: 60px;
+
+}
+
+.detailContent h1{
+font-family: 'Finger Paint', cursive;
+font-size: 38px;
+}
+.detailContent h2{
+  margin-top: -13px;
+  font-family: 'Comfortaa', cursive;
+  font-size: 20px;
+ 
+
+}
+
+.detail-container{
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  width: 1000px;
+  padding-left: 80px;
+
+}
+
+#bobaDescriptions{
+
+  width: 800px;
+  height: 600px;
+  border: 2px dotted rgb(208, 208, 208);
+
+  margin-bottom: 40px;
+  overflow-y: scroll;
+  overflow-x: none;
+
+}
+
+#bobaDescriptions h3{
+  font-family: 'Arima Madurai', cursive;
+  font-size: 18px;
+
+}
+
+/* Edit button */
+.updateBobaNav {
+  background: #000;
+  color: #fff;
+  line-height: 42px;
+  padding: 0;
+  border: none;
+}
+.updateBobaNav {
+  background-color: #c7ede9;
+  width: 120px;
+  cursor: pointer;
+  color: #000;
+  font-family: 'Azeret Mono', monospace;
+  font-size: 12px;
+}
+
+
+.updateBobaNav:hover{
+  background-color: #83C5BE;
+  font-size: 14px;
+}

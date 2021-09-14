@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi&display=swap');
+
+
+nav{
+    overflow: hidden;
+    /* background-color: rgb(51, 51, 51); */
+    font-family: Arial;
+    width: 100%;
+    height: 50px;
+}
+
+.navbarLogo{
+    font-family: 'Orbitron', sans-serif;
+    font-size: xx-large;
+    margin: 0;
+    margin-left: 15px;
+    text-decoration: none;
+    color: white;
+    margin-top: 5px;
+    
+}
+
+/* .navbarLogo:visited{
+    color: none;
+} */
+
+.navbarContainer{
+    /* float: right; */
+    /* display:flex; */
+    /* align-items: flex-end;
+    justify-content: space-evenly; */
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 50px;
+    background-color: black;
+
+}
+
+.navbarBtn{
+    width: 100%;
+    height: 50px;
+    
+
+
+}
+.navLinks{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.navbarLogin
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    height: 50px;
+    margin-top: 10px;
+  
+    
+
+}
+
+.navUser {
+    margin-right: 20px;
+    
+
+}
+.navbarLogin{
+    margin-right: 20px;
+}
+
+
+.navbarLogin button{
+    border: 0;
+    height: 30px;
+    color: black;
+    background-color: whitesmoke;
+    width: 120px;
+    border-right: 2px solid;
+    font-family: 'Kaisei HarunoUmi', serif;
+}
+
+.navbarLogin button:hover{
+    background-color: rgba(116, 139, 163, 0.787);
+    color: white;
+    font-size: medium;
+}
+
+/* not login  */
+
+.notlogin{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 40px;
+    width: 140px;
+    margin-right: 30px;
+}
+
+.notlogin button{
+    height: 30px;
+    width: 140px;
+    font-family: 'Kaisei HarunoUmi', serif;
+    cursor: pointer;
+}
+
+.notlogin button:hover{
+    background-color: rgba(116, 139, 163, 0.787);
+    color: white;
+    font-size: medium;
+ 
+}
+
+.fa-arrow-circle-left{
+    margin-right: 10px;
+}
+
+
+
+

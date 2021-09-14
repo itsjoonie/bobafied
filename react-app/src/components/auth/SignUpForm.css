@@ -1,0 +1,135 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+.overallSignContainer{
+    background-image: url('./signup.jpeg');
+    background-size: cover;
+    min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    margin-bottom: 400px;
+
+}
+.signupContainter{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+     margin-bottom: 400px;
+
+    
+
+    
+}
+
+.signupFormContaine{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: -10px;
+    
+    
+}
+.signupForm{
+    margin-top: 20px;
+}
+
+.signupH1{
+    background-color: #9cafb7;
+    margin-bottom: 0;
+    margin-top: 40px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+    color:#f8edeb ;
+   
+}
+
+.signupFormContent{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #cddcdffa;
+    height: 100%;
+
+}
+
+.otherH1{
+    background-color: #c5dedd;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.signupContent {
+    margin-bottom: 20px;
+
+}
+.signupformBtnC{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    
+ 
+
+}
+
+.signupformBtn{
+    border: 0;
+    height: 30px;
+    color: black;
+    background-color: whitesmoke;
+    width: 80px;
+    height: 30px;
+}
+.signupError{
+    color: red;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: large;
+    margin-bottom: 10px;
+}
+.otherSection{
+    background-color: #c5dedd;
+    margin-top: -60px;
+    margin-bottom: 5px;
+}
+
+
+.loginBtnOtherContainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.loginOtherBtn{
+    border: 0;
+    height: 30px;
+    color: black;
+    background-color: #bcd4e6;
+    width: 90px;
+    cursor: pointer;
+    border: 1px solid grey;
+    font-family: 'Anton', sans-serif;
+    font-size: large;
+}
+
+
+.loginOtherBtn:hover{
+    background: #a8cae4;
+}
+
+
+.signupLabel{
+    font-family: 'Karla', sans-serif;
+}
+
+.loginBtnOtherContainer{
+    margin-top: -5px;
+    height: 30px;
+}
+
+.signupInput{
+    width: 200px;
+}

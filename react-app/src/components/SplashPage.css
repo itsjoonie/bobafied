@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Roboto+Mono:ital,wght@1,100&display=swap');
+
+.first-banner-container{
+    background-image: url('./splashpage.jpeg');
+    background-repeat:no-repeat;
+    width: 100%;
+    height: 900px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding: 0;
+    margin-top: -73px;
+    /* position: fixed; */
+
+
+}
+
+.first-banner-content-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}
+
+.firstbanner-content{
+    background-color: rgba(245, 245, 245, 0.838);
+    height: 400px;
+    width: 400px;
+}
+
+.first-content{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.first-content h1{
+    font-size: 65px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.first-content p{
+    margin-top: -50px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+  
+
+}
+
+.last-line{
+    margin-top: -20px;
+
+}
+
+.startHere-box{
+    position: relative;
+    margin-top: 10px;
+}
+.startHere-btn{
+    position: relative;
+    width: 170px;
+    height: 60px;
+    font-size: 1.2rem;
+    border: none;
+    outline: none;
+    background:#fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.startHere-btn::before , .startHere-btn::after{
+    content:'';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #121212;
+    border-top: transparent;
+    transition: .4s;
+    border-right: transparent;
+    box-sizing: border-box;
+}
+
+.startHere-btn::before{
+    bottom: 0;
+    left: 0;
+}
+.startHere-btn::after{
+    top: 0;
+    right: 0;
+    transform: rotate(180deg);
+}
+.startHere-btn:hover:before , .startHere-btn:hover:after{
+    width: 100%;
+    height: 100%;
+  
+}
+.startHere-btn:hover{
+    background-color:rgb(228, 238, 233);
+    font-weight: bold;
+}
+
+
+.loginAndSignup{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-top: 10px;
+   
+    /* margin-top: 30px; */
+}
+
+.splashLogin{
+ margin-right: 20px;
+}
+
+.splashSignup{
+    margin-right: 30px;
+}
+
+.loginAndSignup button{
+    background-color: #131313c9;
+    font-size: larger;
+
+}
+.splashLoginbtn{
+
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+   
+}
+
+.splashSignupbtn,
+.splashDemobtn {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.splashDemo{
+    margin-right: 20px;
+}
+

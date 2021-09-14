@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mali:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+.loginFormPage{
+    background-image: url('./signup.jpeg');
+    background-size: cover;
+    min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    height: auto;
+    position: absolute;
+}
+
+
+.loginFormContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 160px
+}
+
+.loginFormContent{
+
+    height: 550px;
+    width: 500px;
+    background-color: rgba(142, 195, 242, 0.995);
+}
+
+.input-box{
+    width: 300px;
+}
+
+.actualformContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 100px;
+    
+}
+
+.loginformBtnC{
+    margin-top:15px;
+    
+}
+
+.loginformBtn{
+border: 0;
+height: 30px;
+color: black;
+background-color: whitesmoke;
+width: 60px;
+}
+
+.orSignUp{
+    margin-top: -5px;
+}
+
+/* #signUpBtn,
+.DemoBtn {
+border: 0;
+height: 30px;
+color: black;
+background-color: whitesmoke;
+width: 60px; 
+} */
+
+.login-errors{
+    color: red;
+    margin-top: 10px;
+    margin-bottom: -30px;
+}
+
+.login-content{
+    margin-top: 30px;
+    
+}
+
+.login-error-content{
+    font-size: x-large;
+    text-transform: capitalize
+}
+
+.login-info{
+    margin-bottom: 10px;
+    
+}
+
+.login-info label {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px
+}
+.input-box{
+    margin-bottom: 20px;
+}
+
+.loginformBtnC{
+    margin-top: -5px;
+    display: flex;
+    justify-content: center;
+    margin-right: 90px;
+}
+
+.orSignUp{
+    margin-top: 30px;
+    
+
+}
+
+
+#loginHere{
+    font-family: 'Azeret Mono', monospace;
+    padding-left: 35px;
+    font-size: 40px;
+}
+
+.buttons-login{
+    cursor: pointer;
+    font-family: 'Mali', cursive;
+    border: 0;
+    height: 30px;
+    color: black;
+    background-color: whitesmoke;
+    width: 80px; 
+    
+}
+
+.buttons-login:hover{
+    font-size: large;
+    background-color: rgba(213, 211, 211, 0.913);
+}

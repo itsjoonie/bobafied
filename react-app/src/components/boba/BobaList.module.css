@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Merienda&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Changa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@100;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+   
+
+
+.bobalistContainer{
+    margin-top: 50px;
+  
+}
+/* .bobalistContent{
+
+} */
+.bobaIcon {
+    /* vertical-align: middle; */
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.bobaIconContainer{
+    margin-top: 20px;
+    margin-left: 15px
+
+}
+.bobaCard{
+    display: flex;
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+    transition: 0.3s;
+    border-top: 1px solid;
+    border-bottom: 1px solid black;
+    height: 150px;
+
+
+}
+
+.bobaCar:hover{
+
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+
+.bobaDetails{
+    display: flex;
+    flex-direction: column;
+    margin-left: 13px;
+    margin-bottom: 100px;
+    /* width: 100%; */
+
+}
+
+.bobaType{
+    margin-top: -30px;
+    /* float: left; */
+}
+
+.bobalistBox{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 200px;
+
+}
+
+.bobaContainer{
+    background-color:white;
+    
+   
+    
+}
+
+/* #foot .bobalistpage{
+    min-height: 1000vh;
+    background-color: rgba(242, 240, 240, 0.817);
+} */
+
+.bobalistpage{
+    background-color: rgba(242, 240, 240, 0.817);
+    position:absolute; 
+    height:max-content;
+    width:100%;
+}
+
+.bobalisth1{
+    display: flex;
+    justify-content: center;
+    background-color:#d4adcff3;
+    font-family: 'Alegreya', serif;
+    height: 100px;
+
+}
+
+
+.addBoba{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -40px;
+    background-color: rgba(216, 191, 216, 0.612);
+    
+
+}
+
+.addBoba button{
+    cursor: pointer;
+}
+
+.addBoba button:hover{
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+
+.addBoba p{
+    font-family: 'Changa', sans-serif;
+  
+}
+
+.addBobaContainer{
+    margin-top: 16px;
+    margin-left: 20px;
+    
+
+}
+
+.addBobaContainer button {
+    border: 0;
+    background-color: white;
+    height: 30px;
+    width: 100px;
+    font-family: 'Changa', sans-serif;
+    border:1px solid #C1CAD6;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: medium;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.addBobaLink {
+    text-decoration: none;
+}
+
+.bobaDetailsLink{
+    text-decoration: none;
+}
+
+.moredetails {
+  width: 500px;
+  padding-left: 270px;
+}
+
+.bobaDetails h2 {
+    font-family: 'Azeret Mono', monospace;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.bobaType p, 
+.bobaType p {
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#more{
+    font-family: 'Playfair Display', serif;
+    font-size: 15px;
+    padding-left: 250px;
+
+}
+

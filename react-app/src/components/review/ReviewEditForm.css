@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+.reviewEditPage{
+    
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: #a2d2ff;
+    
+
+
+
+}
+
+.reviewForm-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-top: -50px;
+
+}
+
+#update-rev-h1{
+    display: flex;
+    align-items: center;
+}
+
+.ReviewUpdateBtns{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    margin-top: 30px;
+
+}
+
+.reviewForm-content{
+    margin-top: 20px;
+}
+
+.updateSelection,
+.updateRating,
+.updateRev{
+    margin-bottom: 20px;
+}
+
+.update-label{
+    margin-bottom: 10px;
+}
+
+.insertTextArea{
+    resize: none;
+    border: 3px solid #cccccc;
+}
+
+.updateRevPic label{
+    margin-right: 10px;
+}
+.updateRevPic input {
+    height: 20px;
+    width: 300px;
+}
+
+.updateSelection select{
+    border: 3px solid #cccccc;
+}
+
+.updateSelection label{
+    margin-right: 10px;
+}
+
+#shop-label{
+    margin-left: 20px;
+}
+
+#update-rev-h1{
+    background-color: #74a8d9de;
+    margin-bottom: -15px;
+    display: flex;
+    justify-content: center;
+  
+}
+#update-rev-h1 h1{
+font-family: 'Oswald', sans-serif;
+}
+
+#editreviewbox{
+    background-color:#74a8d9;
+    height: 350px;
+}
+
+
+#editreviewbox-content{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.reviewUpdateBtns{
+    border:none;
+    width: 120px;
+    height: 30px;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    cursor: pointer;
+    font-family: 'Fjalla One', sans-serif;
+
+}
+
+
+.reviewUpdateBtns:hover{
+    font-weight: bolder;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.37); 
+    background-color: rgba(207, 207, 207, 0.924);
+}
+
+.labelFont{
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.errorHandlingR{
+   margin-top: 40px;
+}
+.errorText {
+    color: red;
+    margin-bottom: -5px;
+    text-align: center;
+    font-family: 'Azeret Mono', monospace;
+
+}
