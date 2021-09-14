@@ -31,7 +31,7 @@ function Homepage (){
                     <div className='home-right-top'>
                         <h2 className='fontBitter'>Ready to start your boba journey?</h2>
                         <h3>Explore bobas <NavLink to='/bobalist'>here!</NavLink></h3>
-                        <h3>Don't see the boba you are drinking?<NavLink to = '/bobaform'>Add it here!</NavLink></h3>
+                        <h3>Don't see the boba you are drinking?<NavLink to = '/bobaform'> Add it here!</NavLink></h3>
                         <h3>Want to share your boba experience and see what other people are drinking? <NavLink to ='hangout'>Go to Hangout!</NavLink> </h3>
                     </div>
                     <hr id='lineCss'></hr>
