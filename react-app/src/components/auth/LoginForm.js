@@ -44,11 +44,7 @@ const LoginForm = () => {
       <div className='loginFormContent'>
       <form className='actualform' onSubmit={onLogin}>
         <div className='actualformContent'>
-        <div className='login-errors'>
-          {errors.map((error, ind) => (
-            <div className='login-error-content' key={ind}>{error}</div>
-          ))}
-        </div>
+
         <div className='login-content'>
         <div>
             <div>
@@ -81,6 +77,12 @@ const LoginForm = () => {
           <div className='loginformBtnC'>
           <button className='loginformBtn buttons-login' type='submit'>Login</button>
           </div>
+          <div className='login-errors'>
+          {errors.map((error, ind) => (
+            <div className='login-error-content' key={ind}>{error}</div>
+          
+          ))}
+        </div>
           <div className='orSignUp'>
             <h3>Don't have an account?</h3>
             <div className='or-signup'>

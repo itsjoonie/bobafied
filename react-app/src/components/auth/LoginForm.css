@@ -16,7 +16,7 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-top: 160px
+  margin-top: 130px
 }
 
 .loginFormContent{
@@ -67,7 +67,9 @@ width: 60px;
 .login-errors{
     color: red;
     margin-top: 10px;
-    margin-bottom: -30px;
+    position: absolute;
+    margin-left: 65px;
+    
 }
 
 .login-content{
@@ -76,8 +78,9 @@ width: 60px;
 }
 
 .login-error-content{
-    font-size: x-large;
-    text-transform: capitalize
+    font-size: small;
+    text-transform: capitalize;
+   
 }
 
 .login-info{
@@ -98,10 +101,11 @@ width: 60px;
     display: flex;
     justify-content: center;
     margin-right: 90px;
+
 }
 
 .orSignUp{
-    margin-top: 30px;
+    margin-top: 60px;
     
 
 }
@@ -109,7 +113,7 @@ width: 60px;
 
 #loginHere{
     font-family: 'Azeret Mono', monospace;
-    padding-left: 35px;
+    padding-left: 28px;
     font-size: 40px;
 }
 
