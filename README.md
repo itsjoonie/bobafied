@@ -1,5 +1,5 @@
 # Bobafied
-![logo](bobafiedlogo.png)
+![logo](./image/bobafiedlogo.png)
 
 Bobafied is a social networking and review application that allows users to rate, review and share globally the bobas that they are trying. This fullstack app is inspired by unTappd.  
 * live demo: https://bobafieds.herokuapp.com/
@@ -15,7 +15,7 @@ Bobafied is a social networking and review application that allows users to rate
 * This is the splash page. You can choose to sign-up for new user, login for current user, or be a demo user.     
 <img src='./image/splashMD.png' width='350' height='300' />
 * This is the login page.  
-<img src='loginMd.png' width='350' height='300' />
+<img src='./image/loginMd.png' width='350' height='300' />
 
 * This is the signup page.  
 <img src='./image/signupMd.png' width='350' height='300' />
