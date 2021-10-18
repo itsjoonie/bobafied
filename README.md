@@ -13,33 +13,33 @@ Bobafied is a social networking and review application that allows users to rate
 ## Site Walkthrough
 
 * This is the splash page. You can choose to sign-up for new user, login for current user, or be a demo user.     
-<img src='splashMD.png' width='350' height='300' />
+<img src='./image/splashMD.png' width='350' height='300' />
 * This is the login page.  
 <img src='loginMd.png' width='350' height='300' />
 
 * This is the signup page.  
-<img src='signupMd.png' width='350' height='300' />
+<img src='./image/signupMd.png' width='350' height='300' />
 
 * Once you logged in, user are directed to the homepage. The homepage has a stamp card for all the bobas user have given a review to.  
-<img src='homepageMd.png' width='350' height='300' />
+<img src='./image/homepageMd.png' width='350' height='300' />
 
 * The hangout is where user can post a review to share it globally. User can see other users' reviews too.  
-<img src='hangoutMd.png' width='350' height='300' />
+<img src='./image/hangoutMd.png' width='350' height='300' />
 
 * User can update their reviews.   
- <img src='reviewUpdate.png' width='350' height='300' />
+ <img src='./image/reviewUpdate.png' width='350' height='300' />
 
 * If bobas is not on the list, user can add it. 
-<img src='bobalistMd.png' width='350' height='300' />  
+<img src='./image/bobalistMd.png' width='350' height='300' />  
 
 * The form to add a boba.   
-<img src='addBobaMd.png' width='350' height='300' />
+<img src='./image/addBobaMd.png' width='350' height='300' />
 
 * User can view the detail of the bobas.   
-<img src='bobaDetailMd.png' width='350' height='300' />
+<img src='./image/bobaDetailMd.png' width='350' height='300' />
 
 * The form to update a boba.  
-<img src='updateMd.png' width='350' height='300' />
+<img src='./image/updateMd.png' width='350' height='300' />
 
 
 
