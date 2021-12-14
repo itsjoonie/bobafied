@@ -53,12 +53,12 @@ const NavBar = () => {
          
             :
             <div className={styles.navbarLogin}>
-            <div>
+            <div className={styles.navbtton}>
                 <NavLink to='/hangout' exact={true} activeClassName='active'>
                   <button>Hangout<span> </span><i class="fas fa-users"></i></button>
                 </NavLink>
               </div>
-              <div>
+              <div className={styles.navbtton}>
                 <NavLink to='/bobalist' exact={true} activeClassName='active'>
                   <button>Bobas<span> </span><i class="fas fa-coffee"></i></button>
                 </NavLink>
