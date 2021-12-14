@@ -32,6 +32,7 @@ function ReviewForm (){
         }
         else {
             clearForm()
+            window.scrollTo(0,document.body.scrollHeight);
         }
        
     }
